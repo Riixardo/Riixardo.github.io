@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Top Waifu Rankings</title>
+</head>
+
+<body>
+    <header>
+        <form action="/animes">
+            <p>
+                <label for="search">Username</label>
+                <input type="text" placeholder="username" id="search" name="q" minlength="5" maxlength="20" required>
+            </p>
+            <p>
+                <label for="password">Type Password</label>
+                <input type="password" id="password" name="pass">
+            </p>
+            <p>
+                <label for="num">Enter Age</label>
+                <input type="number" name="num" id="num" placeholder="18" min="1" max="120">
+            </p>
+            <button type="submit">Submit</button>
+        </form>
+        <form action="https://www.google.com/search">
+            <label for="google">Search</label>
+            <input type="text" name="q" id="google" placeholder="Search Google">
+            <button>Submit</button>
+        </form>
+        <h2>More Inputs</h2>
+        <form action="/waifu">
+            <input type="checkbox" name="agree" id="agree" checked>
+            <label for="agree">I agree to everything</label>
+            <p>
+                <label for="waifu1">Hot</label>
+                <input type="radio" name="waifu" id="waifu1" value="hot" required>
+                <label for="waifu2">Mid</label>
+                <input type="radio" name="waifu" id="waifu2" value="mid">
+                <label for="waifu3">Not</label>
+                <input type="radio" name="waifu" id="waifu3" value="not">
+            </p>
+            <p>
+                <label for="selection">select your age</label>
+                <select name="select" id="selection" required>
+                    <option value="">--Please Choose--</option>
+                    <option value="age1">0-17</option>
+                    <option value="age2">18-35</option>
+                    <option value="age3">>36</option>
+                </select>
+            </p>
+            <p>
+                <hr>
+                <label for="textarea">Any Feedback?</label><br>
+                <textarea name="feed" id="textarea" cols="30" rows="10" placeholder="Type something here"></textarea>
+            </p>
+            <button>Submit</button>
+        </form>
+    </header>
+    <h1>Anime Waifu Rankings</h1>
+    <main>
+        <table>
+            <thead>
+                <tr>
+                    <th rowspan="2">Rank</th>
+                    <th rowspan="2">Waifu</th>
+                    <th colspan="2">Attractiveness</th>
+                    <th rowspan="2">Anime</th>
+                </tr>
+                <tr>
+                    <th>Personal(%)</th>
+                    <th>Survey(%)</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>1</td>
+                    <td><a href="wikipedia.html">Elaina</a></td>
+                    <td>100%</td>
+                    <td>87.6%</td>
+                    <td>Majo no Tabitabi</td>
+                </tr>
+                <tr>
+                    <td>2</td>
+                    <td>Shinoa Hiiragi</td>
+                    <td>99.4%</td>
+                    <td>79.7%</td>
+                    <td>Owari no Seraph</td>
+                </tr>
+                <tr>
+                    <td>3</td>
+                    <td>Alice Zuberg</td>
+                    <td>97.5%</td>
+                    <td>88.9%</td>
+                    <td>Sword Art Online</td>
+                </tr>
+            </tbody>
+        </table>
+    </main>
+    <footer>
+
+    </footer>
+</body>
+
+</html>
